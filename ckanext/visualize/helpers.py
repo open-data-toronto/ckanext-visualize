@@ -13,7 +13,9 @@ ICONS_DATA_TYPES = {
     'time': 'fa-clock-o',
     'timestamp': 'fa-hourglass-half',
     'int': 'fa-file-excel-o',
-    'float': 'fa-percent'
+    'float': 'fa-percent',
+    'int4': 'fa-file-excel-o',
+    'float8': 'fa-percent'
 }
 
 
