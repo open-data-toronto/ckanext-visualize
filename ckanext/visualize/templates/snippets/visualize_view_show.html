@@ -5,6 +5,8 @@
 {% resource 'visualize/js/vendor/backend.ckan.js' %}
 {% resource 'visualize/js/modules/visualize-data.js' %}
 
+<link href="/base/vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
 <div class="visualize-wrapper" data-module="visualize-data" data-module-resource-id="{{ resource_id }}"
   data-module-resource-view="{{ h.dump_json(resource_view) }}"
   data-module-color-palette="{{ h.dump_json(h.get_color_palette()) }}" data-module-bar-chart-icon="{{ bar_chart_icon }}"
