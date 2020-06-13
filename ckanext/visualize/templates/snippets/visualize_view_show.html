@@ -38,9 +38,9 @@
               {% set column_color = '#DDCC77' %}
               {% elif field.type == 'bool' %}
               {% set column_color = '#CC6677' %}
-              {% elif field.type == 'int' %}
+              {% elif field.type in ['int', 'int4'] %}
               {% set column_color = '#AA4499' %}
-              {% elif field.type == 'float' %}
+              {% elif field.type in ['float', 'float8'] %}
               {% set column_color = '#882255' %}
               {% else %}
               {% set column_color = '#332288' %}
